@@ -1,0 +1,260 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 100%;
+    color:#333333;
+}
+.top-nav{
+    width:100%;
+    height: auto;
+    background-color: white;
+    color: #878787;
+}
+.contaner{
+    width: 60%;
+   margin:0 auto;
+  box-sizing: border-box;
+  display: block;
+  clear: both;
+
+}
+.contaner .nav{
+    width: 100%;
+    
+}
+.contaner .nav ul{
+    display: flex;
+    float: inline-end;
+}
+
+.contaner ul li{
+    text-decoration: none;
+    list-style-type: none;
+    
+
+}.contaner .nav li a{
+    padding: 0px 20px;
+}
+.contaner .nav li .bor{
+    border-right: 2px solid #878787;
+    padding: 0px 20px;
+}
+.head{
+    width: 100%;
+    background-color: #E2E2E2;
+    display: block;
+    clear: both;
+    margin-top: 60px;
+    height: 320px;
+}
+.head .contaner .caption{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+.head .contaner .caption .left{
+    margin-top: 0px;
+}
+.head .contaner .caption .left h1{
+    font-size: 3em;
+    margin-bottom: auto;
+    margin-left: 0;
+}
+.head .contaner .caption .right{
+   margin-top: 60px;
+   
+}
+
+.contaner .med-nav{
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    border-radius: 10px 10px 0px 0px ;
+    box-sizing: border-box;
+    width: -20px;
+    padding-bottom: 0.1px;
+    
+}
+.contaner .med-nav ul{
+display: flex;
+justify-content: space-around;
+}
+.contaner .med-nav ul li {
+    padding: 20px 0px;
+}
+.head .contaner .big-img{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 40px;
+    margin-top: 0;
+   
+
+}
+.head .contaner .big-img img{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-top: 0px;
+}
+
+
+
+/* end the head section*/
+
+.center {
+    width: 100%;
+    box-sizing: border-box;
+}
+.center .contaner .left{
+    width: 65%;
+    float: left;
+    clear: left;
+    margin-top: 100px;
+}
+.center .contaner .left h3{
+    background-color: #E2E2E2;
+}
+.center .contaner .left h3 span{
+    background-color: white;
+    padding-right: 10px;
+}
+.center .contaner .caption{
+    width: 100%;
+
+}
+.center .contaner .caption .left{
+    width: 50%;
+    float: left;
+    clear:left;
+}
+.center .contaner .caption .left .bar{
+    width: 100%;
+    padding-left: 0px;
+    margin :0px;
+    box-sizing: border-box;
+}
+.center .contaner .caption .left .bar ul{
+    display: flex;
+    margin: auto;
+    justify-content:space-between;
+    margin-top: -75px;
+    margin-left: -40px;
+
+}
+.center .contaner .caption .left .bar ul i{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 23px;
+}
+.caption .left .photo{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border:1px solid #333333;
+    padding: 4px;
+
+    
+}
+.caption .left .bar2{
+    width: 100%;
+    margin-top: 50px;
+    
+}
+.caption .left .bar2 ul{
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+}
+.caption .right{
+    width: 50%;
+    float: right;
+    clear: right;
+    text-align: center;
+    line-height: 35px;
+    box-sizing: border-box;
+}
+
+.caption .butt{
+    width: 100;
+}
+.caption .butt button{
+    width: 47%;
+}
+.down{
+    background-color: #F5C703;
+    height:50px;
+    border:0px solid #F5C703;
+    border-radius: 10px;
+    float: left;
+    clear: left;
+    margin-top: 20px;
+    font-size: 30px;
+    color:#7d6705 ;
+}
+
+.live{
+    background-color:#8CBD2E;
+    height:50px;
+    border:0px solid #8CBD2E;
+    border-radius: 10px;
+    float: right;
+    clear: right;
+    margin-top: 20px;
+    font-size: 30px;
+    color:#fffffff4 ;
+}
+
+.center .contaner .big-right{
+    width: 35%;
+    float: right;
+    clear: right;margin-top: 100px;
+}
+
+.center .contaner .big-right h3{
+    background-color: #E2E2E2;
+}
+.center .contaner .big-right h3 span{
+    background-color: white;
+    padding-right: 10px;
+}
+
+center .contaner .big-right .frist-img{
+    width: 100%;
+    margin-top: 40px;
+    box-sizing: border-box;
+}
+center .contaner .big-right .frist-img img{
+}
+center .contaner .big-right .two-img{
+    width: 100%;
+    float: right;
+    clear: right;
+    display: flex;
+    justify-content:space-between;
+}
+footer{
+    width: 100%;
+    
+}
+ footer .contaner{
+    padding: 150px;
+    height: 200px;
+   
+ }
+ footer .contaner .p-left{
+    float: left;
+    clear: left;
+ }
+
+ footer .contaner .p-right{
+    float: right;
+    clear: right;
+ }
